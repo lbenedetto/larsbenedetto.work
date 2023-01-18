@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.scaleOnHover {
+  scale: 100%;
+}
+
+.scaleOnHover:hover {
+  scale: 102%;
+}
