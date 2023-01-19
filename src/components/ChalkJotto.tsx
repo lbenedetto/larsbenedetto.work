@@ -4,6 +4,7 @@ import Container from "@mui/material/Container";
 import {Button, ImageList, ImageListItem, Paper, Stack} from "@mui/material";
 import Box from "@mui/material/Box";
 import ArticleHeader from "./Article";
+import Image from "./Media";
 
 export default function ChalkJotto() {
   return (
@@ -52,17 +53,7 @@ export default function ChalkJotto() {
             then add on features if I feel like it later. And indeed, releasing this app today has given me the
             motivation to add in some of those other feature ideas I had been working.
           </Typography>
-          <Box padding={2} margin="auto">
-            <ImageList cols={1}>
-              <ImageListItem>
-                <img
-                  src="https://imgur.com/nqcBSP8.png"
-                  alt="Achievement icons"
-                  loading="lazy"
-                />
-              </ImageListItem>
-            </ImageList>
-          </Box>
+          <Image url="https://imgur.com/nqcBSP8.png" alt="Achievement icons"/>
           <Typography lineHeight={2} padding={2}>
             I may re-add Achievements at some point since I had gone to the trouble of drawing icons for every achievement.
           </Typography>
