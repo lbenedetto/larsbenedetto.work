@@ -1,6 +1,9 @@
 import Container from "@mui/material/Container";
 import ArticleHeader from "./Article";
 import React from "react";
+import Box from "@mui/material/Box";
+import {Paper} from "@mui/material";
+import Typography from "@mui/material/Typography";
 
 export default function DoctorMarkov() {
   return (
@@ -11,6 +14,13 @@ export default function DoctorMarkov() {
         date={"16th June 2019"}
         category={"Web, Fun with Data"}
       />
+      <Box paddingTop={2}>
+        <Paper elevation={1}>
+          <Typography lineHeight={2} padding={2}>
+            Article in process of being migrated from old site
+          </Typography>
+        </Paper>
+      </Box>
     </Container>
   )
 }
