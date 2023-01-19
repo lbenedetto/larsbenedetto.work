@@ -1,32 +1,21 @@
 import Typography from "@mui/material/Typography";
-import CardMedia from "@mui/material/CardMedia";
 import React from "react";
 import Container from "@mui/material/Container";
 import {Button, Link, Paper, Stack} from "@mui/material";
 import Box from "@mui/material/Box";
-import {CalendarMonth, Category} from "@mui/icons-material";
 import {TwitterTweetEmbed} from "react-twitter-embed";
 import Image from "./Media";
+import ArticleHeader from "./Article";
 
 export default function CaptainMarkov() {
   return (
     <Container sx={{paddingY: 8}} maxWidth="md">
-      <CardMedia
-        component="img"
-        image="https://i.imgur.com/r79BZ62.png"
+      <ArticleHeader
+        imgUrl={"https://i.imgur.com/r79BZ62.png"}
+        title={"Captain Markov"}
+        date={"1st November 2017"}
+        category={"Fun with Data"}
       />
-      <Typography variant="h4" component="h2" paddingTop={2}>
-        Captain Markov
-      </Typography>
-      <Stack sx={{paddingTop: 2, paddingBottom: 2}}
-             direction="row"
-             spacing={1}
-             justifyContent="left">
-        <CalendarMonth/>
-        <Typography paddingRight={2}>1st November 2017</Typography>
-        <Category/>
-        <Typography>Data Processing</Typography>
-      </Stack>
       <Box paddingTop={2}>
         <Paper elevation={1}>
           <Typography lineHeight={2} padding={2}>

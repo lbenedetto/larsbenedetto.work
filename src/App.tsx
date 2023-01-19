@@ -14,6 +14,11 @@ import Home from "./components/Home";
 import ChalkJotto from "./components/ChalkJotto";
 import MapOfReddit from "./components/MapOfReddit";
 import CaptainMarkov from "./components/CaptainMarkov";
+import ConfidentlyIncorrect from "./components/ConfidentlyIncorrect";
+import DoctorMarkov from "./components/DoctorMarkov";
+import PaperclipMaximizer from "./components/PaperclipMaximizer";
+import LiveBusMap from "./components/LiveBusMap";
+import VinScanner from "./components/VinScanner";
 
 const theme = createTheme({
   palette: {
@@ -38,7 +43,12 @@ export default function App() {
       <main>
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blog/ConfidentlyIncorrect" element={<ConfidentlyIncorrect />} />
             <Route path="/blog/ChalkJotto" element={<ChalkJotto />} />
+            <Route path="/blog/DoctorMarkov" element={<DoctorMarkov />} />
+            <Route path="/blog/PaperclipMaximizer" element={<PaperclipMaximizer />} />
+            <Route path="/blog/LiveBusMap" element={<LiveBusMap />} />
+            <Route path="/blog/VinScanner" element={<VinScanner />} />
             <Route path="/blog/MapOfReddit" element={<MapOfReddit />} />
             <Route path="/blog/CaptainMarkov" element={<CaptainMarkov />} />
         </Routes>

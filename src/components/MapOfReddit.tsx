@@ -1,31 +1,20 @@
 import Typography from "@mui/material/Typography";
-import CardMedia from "@mui/material/CardMedia";
 import React from "react";
 import Container from "@mui/material/Container";
 import {Button, Link, Paper, Stack} from "@mui/material";
 import Box from "@mui/material/Box";
-import {CalendarMonth, Category} from "@mui/icons-material";
 import Image, {Video} from "./Media";
+import ArticleHeader from "./Article";
 
 export default function ChalkJotto() {
   return (
     <Container sx={{paddingY: 8}} maxWidth="md">
-      <CardMedia
-        component="img"
-        image="https://imgur.com/HoQT9xi.png"
+      <ArticleHeader
+        imgUrl={"https://imgur.com/HoQT9xi.png"}
+        title={"Map Of Reddit"}
+        date={"15th December 2017"}
+        category={"Fun with Data"}
       />
-      <Typography variant="h4" component="h2" paddingTop={2}>
-        Map Of Reddit
-      </Typography>
-      <Stack sx={{paddingTop: 2, paddingBottom: 2}}
-             direction="row"
-             spacing={1}
-             justifyContent="left">
-        <CalendarMonth/>
-        <Typography paddingRight={2}>21st November 2017</Typography>
-        <Category/>
-        <Typography>Data Visualization</Typography>
-      </Stack>
       <Box paddingTop={2}>
         <Paper elevation={1}>
           <Typography lineHeight={2} padding={2}>
