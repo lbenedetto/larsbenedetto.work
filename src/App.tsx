@@ -8,7 +8,8 @@ import Typography from '@mui/material/Typography';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import {
   Routes,
-  Route, Link,
+  Route,
+  Link,
 } from "react-router-dom";
 import Home from "./components/Home";
 import ChalkJotto from "./components/ChalkJotto";
@@ -42,15 +43,15 @@ export default function App() {
       </AppBar>
       <main>
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/blog/ConfidentlyIncorrect" element={<ConfidentlyIncorrect />} />
-            <Route path="/blog/ChalkJotto" element={<ChalkJotto />} />
-            <Route path="/blog/DoctorMarkov" element={<DoctorMarkov />} />
-            <Route path="/blog/PaperclipMaximizer" element={<PaperclipMaximizer />} />
-            <Route path="/blog/LiveBusMap" element={<LiveBusMap />} />
-            <Route path="/blog/VinScanner" element={<VinScanner />} />
-            <Route path="/blog/MapOfReddit" element={<MapOfReddit />} />
-            <Route path="/blog/CaptainMarkov" element={<CaptainMarkov />} />
+          <Route path="/" element={<Home/>}/>
+          <Route path="/blog/ConfidentlyIncorrect" element={<ConfidentlyIncorrect/>}/>
+          <Route path="/blog/ChalkJotto" element={<ChalkJotto/>}/>
+          <Route path="/blog/DoctorMarkov" element={<DoctorMarkov/>}/>
+          <Route path="/blog/PaperclipMaximizer" element={<PaperclipMaximizer/>}/>
+          <Route path="/blog/LiveBusMap" element={<LiveBusMap/>}/>
+          <Route path="/blog/VinScanner" element={<VinScanner/>}/>
+          <Route path="/blog/MapOfReddit" element={<MapOfReddit/>}/>
+          <Route path="/blog/CaptainMarkov" element={<CaptainMarkov/>}/>
         </Routes>
       </main>
     </ThemeProvider>
