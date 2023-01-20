@@ -57,7 +57,7 @@ export default function ChalkJotto() {
           <Typography lineHeight={2} padding={4}>
             I may re-add Achievements at some point since I had gone to the trouble of drawing icons for every achievement.
           </Typography>
-          <Stack sx={{paddingTop: 2, paddingBottom: 2}}
+          <Stack sx={{paddingTop: 2, paddingBottom: 4}}
                  direction="row"
                  spacing={2}
                  justifyContent="center">

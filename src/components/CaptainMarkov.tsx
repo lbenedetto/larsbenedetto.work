@@ -84,7 +84,7 @@ export default function CaptainMarkov() {
             than containing unique Star Trek technical words.
           </Typography>
           <Image url="https://i.imgur.com/095Sg1N.png" alt="The desktop UI"/>
-          <Stack sx={{paddingTop: 0, paddingBottom: 2}}
+          <Stack sx={{paddingTop: 0, paddingBottom: 4}}
                  direction="row"
                  spacing={2}
                  justifyContent="center">

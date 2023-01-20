@@ -93,7 +93,7 @@ export default function ChalkJotto() {
             way of filtering down which articles would be included, and eventually lost interest in the project and
             moved on in favor of more interesting projects.
           </Typography>
-          <Stack sx={{paddingTop: 2, paddingBottom: 2}}
+          <Stack sx={{paddingTop: 2, paddingBottom: 4}}
                  direction="row"
                  spacing={2}
                  justifyContent="center">

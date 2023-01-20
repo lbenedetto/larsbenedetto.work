@@ -66,6 +66,18 @@ function ProjectGrid() {
           imgUrl="https://i.imgur.com/ze8AoKi.png"
         />
         <Project
+          title="Food Rescue"
+          blurb="Saving food from going to waste on a college campus"
+          postUrl="/blog/FoodRescue"
+          imgUrl="https://imgur.com/2eKTEdG.png"
+        />
+        <Project
+          title="Pickup Scheduler"
+          blurb="Planning the optimal route to visit all customers using K-Means clustering"
+          postUrl="/blog/PickupScheduler"
+          imgUrl="https://imgur.com/DuTT6Sw.png"
+        />
+        <Project
           title="Paperclip Maximizer"
           blurb="Training an RNN to play a game about maximizing paperclips"
           postUrl="/blog/PaperclipMaximizer"

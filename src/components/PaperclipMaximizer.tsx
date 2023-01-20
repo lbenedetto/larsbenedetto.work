@@ -47,7 +47,7 @@ export default function PaperclipMaximizer() {
             <br/><br/>
             I’m excited to try more machine learning projects in the future. Next time I’d like to work on something more precise, rather than <Link href="https://xkcd.com/1838/">randomly stirring a pile of linear algebra</Link> until it can play a game.
           </Typography>
-          <Stack sx={{paddingTop: 0, paddingBottom: 2}}
+          <Stack sx={{paddingTop: 0, paddingBottom: 4}}
                  direction="row"
                  spacing={2}
                  justifyContent="center">

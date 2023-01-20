@@ -50,7 +50,7 @@ export default function DoctorMarkov() {
             I also wrote one of the articles myself, but you will only see it if you cause my PHP code to throw an
             exception.
           </Typography>
-          <Stack sx={{paddingTop: 0, paddingBottom: 2}}
+          <Stack sx={{paddingTop: 0, paddingBottom: 4}}
                  direction="row"
                  spacing={2}
                  justifyContent="center">

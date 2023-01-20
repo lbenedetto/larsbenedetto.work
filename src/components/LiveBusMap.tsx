@@ -51,7 +51,7 @@ export default function LiveBusMap() {
             useful!) client and server.
             <br/>
             Unfortunately, my site no longer works because the pb files it relied on are no longer publicly accessible.
-            <Stack sx={{paddingTop: 2, paddingBottom: 2}}
+            <Stack sx={{paddingTop: 2, paddingBottom: 4}}
                    direction="row"
                    spacing={2}
                    justifyContent="center">

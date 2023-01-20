@@ -28,7 +28,7 @@ export default function ArticleHeader(props: ArticleHeaderProps) {
       <Typography variant="h4" component="h2" paddingTop={2}>
         {props.title}
       </Typography>
-      <Stack sx={{paddingTop: 2, paddingBottom: 2}}
+      <Stack sx={{paddingTop: 2, paddingBottom: 4}}
              direction="row"
              spacing={1}
              justifyContent="left">
