@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
   Link,
+  useNavigate
 } from "react-router-dom";
 import Home from "./components/Home";
 import ChalkJotto from "./components/ChalkJotto";
@@ -22,6 +23,8 @@ import PickupScheduler from "./components/PickupScheduler";
 import PaperclipMaximizer from "./components/PaperclipMaximizer";
 import LiveBusMap from "./components/LiveBusMap";
 import VinScanner from "./components/VinScanner";
+import {IconButton, Link as MLink} from "@mui/material";
+import Box from "@mui/material/Box";
 
 const theme = createTheme({
   palette: {
@@ -30,19 +33,39 @@ const theme = createTheme({
 });
 
 export default function App() {
+  const navigate = useNavigate();
+  function onClick() {
+    navigate("/");
+  }
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline/>
-      <AppBar position="relative">
-        <Toolbar>
-          <DataObjectIcon sx={{marginRight: 2}}/>
-          <Link className="scaleOnHover" to="/" style={{textDecoration: 'none'}}>
-            <Typography variant="h6" color="white" noWrap>
+      <Box sx={{ flexGrow: 1 }}>
+        <AppBar position="static">
+          <Toolbar>
+            <IconButton
+              onClick={onClick}
+              size="large"
+              edge="start"
+              color="inherit"
+              aria-label="menu"
+              sx={{ marginRight: 2 }}
+            >
+              <DataObjectIcon/>
+            </IconButton>
+
+            <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
               Lars Benedetto's Projects
             </Typography>
-          </Link>
-        </Toolbar>
-      </AppBar>
+            <MLink className="scaleOnHover" href="https://larsbenedetto.work/resume" style={{textDecoration: 'none'}}>
+              <Typography variant="h6" color="white">
+                View Resume
+              </Typography>
+            </MLink>
+          </Toolbar>
+        </AppBar>
+      </Box>
       <main>
         <Routes>
           <Route path="/" element={<Home/>}/>
