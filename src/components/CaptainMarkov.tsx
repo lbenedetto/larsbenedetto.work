@@ -18,7 +18,7 @@ export default function CaptainMarkov() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             When I first came across bots running on <Link href="https://en.wikipedia.org/wiki/Markov_chain">Markov
             Chains</Link> on the internet, I knew I had to make my own. I decided that a Twitter bot that generates and
             tweets Captains Logs as in the Star Trek franchise would be pretty cool. So I spent some time learning how
@@ -43,7 +43,7 @@ export default function CaptainMarkov() {
             <TwitterTweetEmbed tweetId={'712964223211442176'}
                                placeholder="PICARD: Doesn't love always begin that way? With the power to initiate a level two security alert."/>
           </Box>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             In general, a Markov Chain is a statistical model that relates a word (or character) to the probability of
             any other word (or character) occurring after it. The core data structure of the program used to accomplish
             this is a Hashtable&lt;String, Vector&lt;String&gt;&gt;.

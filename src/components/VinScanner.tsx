@@ -18,7 +18,7 @@ export default function VinScanner() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             When I started working at VIP Traders my job was to organize paperwork into folders. I would eventually
             transition into writing software to automate large portions of mine and others jobs, and the first step in
             that transition was an Android app.

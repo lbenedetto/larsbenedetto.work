@@ -17,7 +17,7 @@ export default function ChalkJotto() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             Chalk Jotto is my first Android game. I got the idea about a year ago, threw together a playable game over the
             weekend, and polished it up over the course of the next week after work. But then I started losing interest. I
             had so many ideas for features, and I tried adding them all at once. I got distracted and kind of forgot about
@@ -47,14 +47,14 @@ export default function ChalkJotto() {
               </ImageListItem>
             </ImageList>
           </Box>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             I can’t believe I let a project sit 99% finished for so long. Next time I start a project I’m going to focus
             on finishing a minimum viable product, putting just a bit of polish on top, and then releasing it. I can
             then add on features if I feel like it later. And indeed, releasing this app today has given me the
             motivation to add in some of those other feature ideas I had been working.
           </Typography>
           <Image url="https://imgur.com/nqcBSP8.png" alt="Achievement icons"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             I may re-add Achievements at some point since I had gone to the trouble of drawing icons for every achievement.
           </Typography>
           <Stack sx={{paddingTop: 2, paddingBottom: 2}}

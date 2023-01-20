@@ -16,7 +16,7 @@ export default function ConfidentlyIncorrect() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             Coming soon
           </Typography>
         </Paper>

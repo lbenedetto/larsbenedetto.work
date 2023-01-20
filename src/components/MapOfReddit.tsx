@@ -17,7 +17,7 @@ export default function ChalkJotto() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             Understanding this post requires at least a cursory understanding of what Reddit is. If you don’t know what
             Reddit is, I highly recommend <Link href="https://www.youtube.com/watch?v=tlI022aUWQQ">this video by CGP Grey</Link>.
             <br/><br/>
@@ -33,7 +33,7 @@ export default function ChalkJotto() {
             build the following visualizations.
           </Typography>
           <Image url="https://i.imgur.com/uEbEpst.jpeg" alt="Densely packed clusters of related subreddits"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             There are nearly a million subreddits, each one with an average of 10 connections, so I had to trim down the
             data set to a more manageable size. I chose to limit it to only subreddits with more than 1,000 subscribers.
             This leaves some subreddits stranded, with no links to them from the central cluster, and as such they form
@@ -42,22 +42,22 @@ export default function ChalkJotto() {
             clusters, and used those clusters of subreddits with high mutual linkage to determine node color.
           </Typography>
           <Image url="https://i.imgur.com/HoWZSx4.jpeg" alt="Clusters have been spead out"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             Then, I ran an expansion algorithm to spread out the densely packed clusters to make it easier to see what is going on.
           </Typography>
           <Image url="https://i.imgur.com/Ujz2fDG.png" alt="Lines between nodes removed"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             Next, I hide the edges between nodes, again in the interest of clarity.
           </Typography>
           <Image url="https://i.imgur.com/tlEDP99.png" alt="Clusters labeled with their category"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             I did some poking around in Gephi to determine which category each cluster was comprised of, and labeled
             them in Photoshop. Probably the most interesting trend I found while poking around was that gay porn
             subreddits tended to link to LGBTQ support group subreddits, which in turn linked to self improvement
             subreddits, which explains the proximity of the porn cluster to the self improvement cluster.
           </Typography>
           <Image url="https://i.imgur.com/J7Qe3Y0.jpeg" alt="Large subreddits labelled"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             In this image I enabled node labels for subreddits with more than 10,000 subscribers. All of the images in
             this post are high resolution (4000×4000) so if you open them in a new tab you’ll be able to zoom in very
             far and read the labels much easier.
@@ -67,13 +67,13 @@ export default function ChalkJotto() {
           </Typography>
           <Video url="https://i.imgur.com/TbLUDaa.mp4"/>
           <Video url="https://giant.gfycat.com/UnlinedCreativeBarasinga.webm"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             I also had the scraper gather the creation date for the subreddits, and made an animation where the output
             was filtered by year, in order to display the growth of reddit over time.
           </Typography>
           <Video url="https://i.imgur.com/Ud9tLma.mp4"/>
           <Video url="https://giant.gfycat.com/UnfoldedAcceptableChuckwalla.webm"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             The final addition to this project was a map of the power moderators of Reddit. Because of the extreme
             number of edges in this case, I limited the scope of the scraping and visualization to only moderators of
             the 49 default subreddits. Each moderator got a node, and each edge meant that those moderators shared a
@@ -81,7 +81,7 @@ export default function ChalkJotto() {
             moderator was in charge of, the large their node.
           </Typography>
           <Image url="https://i.imgur.com/13iqwkH.jpeg" alt="Network graph of reddit moderators"/>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             The 49 default subs have a total of 2627 moderators, with 2,673,294 connections between them. The top 10
             moderators on Reddit are in charge of between 43 million to 200 million users each. Again, colored clusters
             represent high degrees of linkage. This means that that small group of moderators have all added each other

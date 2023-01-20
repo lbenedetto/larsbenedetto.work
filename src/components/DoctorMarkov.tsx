@@ -16,7 +16,7 @@ export default function DoctorMarkov() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             I recently revisited one of my oldest real projects, <Link href="https://twitter.com/captain_markov">Captain
             Markov</Link>. It was a Twitter bot that used a Markov Chain to generate fake captains logs from Star Trek.
             I learned a lot doing, but I’ve learned much more since then. I decided to rewrite it into Kotlin and do

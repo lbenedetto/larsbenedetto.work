@@ -16,7 +16,7 @@ export default function PaperclipMaximizer() {
       />
       <Box paddingTop={2}>
         <Paper elevation={1}>
-          <Typography lineHeight={2} padding={2}>
+          <Typography lineHeight={2} padding={4}>
             I wanted to dip my toes to machine learning, and at the time, I was having fun playing a simple web game
             called <Link href="https://www.decisionproblem.com/paperclips/">Universal Paperclips</Link> based on the
             famous <Link href="https://wiki.lesswrong.com/wiki/Paperclip_maximizer">Paperclip Maximizer</Link> thought
