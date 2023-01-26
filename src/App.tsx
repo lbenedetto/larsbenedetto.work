@@ -58,11 +58,6 @@ export default function App() {
             <Typography variant="h6" component="div" sx={{flexGrow: 1}}>
               Lars Benedetto's Projects
             </Typography>
-            <MLink className="scaleOnHover" href="https://larsbenedetto.work/resume" style={{textDecoration: 'none'}}>
-              <Typography variant="h6" color="white">
-                View Resume
-              </Typography>
-            </MLink>
           </Toolbar>
         </AppBar>
       </Box>
